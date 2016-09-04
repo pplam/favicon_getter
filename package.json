@@ -29,6 +29,7 @@
     ]
   },
   "scripts": {
+    "transpile": "[ -d src ] && ./node_modules/.bin/babel src --out-dir lib || true",
     "test": "mocha --ui bdd --compilers js:babel-core/register --require babel-polyfill --recursive --reporter spec --check-leaks -t 20000 test"
   },
   "main": "lib/index.js",
