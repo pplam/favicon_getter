@@ -1,5 +1,5 @@
 {
-  "name": "faviconGetter",
+  "name": "favicon-getter",
   "version": "1.0.0",
   "description": "get favicon url of given url",
   "author": "shiwen-l",
@@ -30,5 +30,22 @@
   },
   "scripts": {
     "test": "mocha --ui bdd --compilers js:babel-core/register --require babel-polyfill --recursive --reporter spec --check-leaks -t 20000 test"
-  }
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pplam/favicon_getter.git"
+  },
+  "keywords": [
+    "favicon",
+    "page_favicon"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pplam/favicon_getter/issues"
+  },
+  "homepage": "https://github.com/pplam/favicon_getter#readme"
 }
