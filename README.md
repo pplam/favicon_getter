@@ -9,9 +9,10 @@ A small library that get favicon url of given url
 
 ## Usage
 
-  `import fetchFavicon from 'favicon-getter'`
-
-  `fetchFavicon('http://www.example.com').then(console.log).catch(console.log)`
+~~~
+  import fetchFavicon from 'favicon-getter'
+  fetchFavicon('http://www.example.com').then(console.log).catch(console.log)
+~~~
 
 ## Tests
 
@@ -19,4 +20,4 @@ A small library that get favicon url of given url
 
 ## Contributing
 
-  That would be nice if you contribute any wonderful feature. Github: https://github.com/pplam/favicon_getter.
+  That would be nice if you contribute any good feature. Code here: https://github.com/pplam/favicon_getter.
