@@ -9,7 +9,7 @@ A small library that get favicon url of given url
 
 ## Usage
 
-~~~
+~~~javascript
   import fetchFavicon from 'favicon-getter'
   fetchFavicon('http://www.example.com').then(console.log).catch(console.log)
 ~~~
