@@ -33,16 +33,13 @@
     "test": "mocha --ui bdd --compilers js:babel-core/register --require babel-polyfill --recursive --reporter spec --check-leaks -t 20000 test"
   },
   "main": "lib/index.js",
-  "directories": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pplam/favicon_getter.git"
   },
   "keywords": [
     "favicon",
-    "page_favicon"
+    "url"
   ],
   "license": "MIT",
   "bugs": {

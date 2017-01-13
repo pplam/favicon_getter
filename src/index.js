@@ -10,7 +10,8 @@ export default function fetchFavicon(pageUrl) {
       }
 
       const $ = cheerio.load(body)
-      const faviconHref = $("link[rel='shortcut icon'], link[rel='icon']").first().attr('href')
+      const selector = "link[rel='shortcut icon'], link[rel='icon']"
+      const faviconHref = $(selector).first().attr('href')
 
       if (faviconHref) {
         resolve(url.resolve(pageUrl, faviconHref))

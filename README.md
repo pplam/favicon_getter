@@ -1,7 +1,7 @@
 Favicon Getter
 ==========
 
-A small library that get favicon url of given url
+A small library that gets favicon url of given url
 
 ## Installation
 
@@ -11,13 +11,11 @@ A small library that get favicon url of given url
 
 ~~~javascript
   import fetchFavicon from 'favicon-getter'
-  fetchFavicon('http://www.example.com').then(console.log).catch(console.log)
+  fetchFavicon('https://news.ycombinator.com/')
+    .then(console.log)
+    .catch(console.log)
 ~~~
-
-## Tests
-
-  `npm test`
 
 ## Contributing
 
-  That would be nice if you contribute any good feature. Code here: https://github.com/pplam/favicon_getter.
+  Having a good thought? Twisting it as you like and let me know: https://github.com/pplam/favicon_getter.
